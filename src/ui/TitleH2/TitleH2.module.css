@@ -1,0 +1,8 @@
+.title {
+  color: #222;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}

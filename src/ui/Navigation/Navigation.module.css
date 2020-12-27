@@ -1,0 +1,72 @@
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  z-index: 3;
+}
+.languagesContainer {
+  width: 150px;
+  display: flex;
+  padding: 10px;
+  float: left;
+  color: #fff;
+  margin: 1em;
+}
+.languagesContainer li {
+  padding: 0 0.3em;
+}
+.nav {
+  -moz-box-shadow: 0 0 3px #9b9090;
+  -webkit-box-shadow: 0 0 3px #9b9090;
+  box-shadow: 0 0 3px #9b9090;
+  border-radius: 50px;
+  float: right;
+  margin-right: -2.5em;
+  background-color: #fff;
+  margin: 1em -2.8em 1em 1em;
+  padding: 0.5em;
+  padding: 0.5em 2em 0.5em 0.5em;
+  /*width: 0.1em;
+  overflow: hidden;
+  transition: width 2s;*/
+}
+.nav .openMenu {
+  width: auto;
+}
+.menuIcon {
+  -moz-box-shadow: 0 0 3px #9b9090;
+  -webkit-box-shadow: 0 0 3px #9b9090;
+  box-shadow: 0 0 3px #9b9090;
+  color: #4b4b4b;
+  float: right;
+  padding: 0.45em;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 1em;
+}
+.navUl {
+  display: flex;
+
+  font-size: 1em;
+  float: right;
+}
+
+.navUl li {
+  padding: 0 15px;
+}
+
+.navUl li a {
+  text-decoration: none;
+  color: #4b4b4b;
+}
+.navUl li a:hover {
+  color: #000;
+}
+.close {
+  float: right;
+  margin-right: -2em;
+  color: #4b4b4b;
+}

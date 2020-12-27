@@ -1,0 +1,70 @@
+.container {
+  position: relative;
+  padding: 2em;
+  z-index: 2;
+}
+.flexContainer {
+  display: flex;
+  margin-top: -2em;
+}
+.flexChildren {
+  width: 50%;
+  position: relative;
+  z-index: -1;
+}
+.flexContainer:nth-child(2) .flexChildren:nth-child(1)::before,
+.flexMarginMinus div:nth-child(2):before {
+  content: "";
+  width: 100%;
+  background-color: #cacaca;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  position: absolute;
+}
+.flexMarginMinus {
+  display: flex;
+  margin-top: -4em;
+}
+.imgVertical {
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  padding-bottom: 1.5em;
+}
+
+.imgHorizontal {
+  display: block;
+  width: 70%;
+  padding: 1.5em;
+}
+.paragraph {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 80%;
+}
+
+@media (max-width: 600px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+  .flexChildren {
+    width: 100%;
+  }
+  .paragraph {
+    position: relative;
+    padding: 2em 1em;
+  }
+  .imgHorizontal {
+    width: 100%;
+    padding: 0;
+  }
+  .flexMarginMinus {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0;
+  }
+}

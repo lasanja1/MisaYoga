@@ -1,0 +1,9 @@
+.container {
+  position: relative;
+  background-image: url("https://scontent.ffco2-1.fna.fbcdn.net/v/t31.0-8/12622330_969082013179726_260391738097665300_o.jpg?_nc_cat=100&ccb=2&_nc_sid=a9b1d2&_nc_ohc=Wao5o1LsWi0AX8HRa6k&_nc_ht=scontent.ffco2-1.fna&oh=610acc0f1284982cbe57cf7104d88edb&oe=600CD85A");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.heroImg {
+  width: 100%;
+}

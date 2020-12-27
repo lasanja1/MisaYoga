@@ -1,0 +1,53 @@
+.container {
+}
+.selection {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 1em 0;
+}
+.selection div {
+  padding: 1em 0.6em;
+}
+.selection div:hover {
+  text-decoration: underline;
+}
+.dualContainer {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.dualContainer div {
+  width: 50%;
+  text-align: left;
+  min-height: 10em;
+  background-color: #cacaca;
+  overflow: hidden;
+}
+.dualContainer div:nth-child(1) {
+  padding: 2em;
+  background-color: #fff;
+  text-transform: capitalize;
+}
+.titleH3 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .selection {
+    flex-direction: column;
+    padding-top: 2em;
+  }
+  .selection div {
+    padding: 0.6em;
+  }
+  .dualContainer {
+    flex-direction: column;
+  }
+  .dualContainer div {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 60vw;
+  }
+}

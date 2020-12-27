@@ -1,0 +1,17 @@
+:root {
+  font-size: calc(0.7em + 1vw);
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #ededed;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
